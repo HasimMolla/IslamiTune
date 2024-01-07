@@ -7,12 +7,24 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="w-full h-[100vh] bg-gray-900 flex">
-        <div class="w-[30%]">
-            <div class="w-full h-[30%] border-2 border-red-500"></div>
-            <div class="w-full h-[70%] border-2 border-blue-600"></div>
+    <div class="w-full h-[100vh] bg-black flex">
+        <div class="w-[30%] m-2 flex flex-col gap-2">
+            <div class="w-full h-[30%] bg-[#121212] rounded-lg p-5 flex flex-col gap-6 text-white">
+                <div>
+                    <img class="invert hover:cursor-pointer" src="../assets/logo.svg" alt="">
+                </div>
+                <div class="flex items-center gap-5">
+                    <img class="invert object-cover w-6 hover:cursor-pointer" src="../assets/home.svg" alt="">
+                    <p class="font-bold text-base hover:underline hover:cursor-pointer">Home</p>
+                </div>
+                <div class="flex items-center gap-5 text-[#9a9a9a]">
+                    <img class="invert-[60%] object-cover w-6 hover:cursor-pointer hover:invert" src="../assets/search.svg" alt="">
+                    <p class="font-bold text-base hover:underline hover:cursor-pointer hover:text-white">Search</p>
+                </div>
+            </div>
+            <div class="w-full h-[70%] bg-[#121212] rounded-lg"></div>
         </div>
-        <div class="w-[70%] border-2 border-white"></div>
+        <div class="w-[70%] bg-[#121212] my-[10px] rounded-lg"></div>
     </div>
 
 
